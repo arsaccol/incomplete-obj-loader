@@ -43,7 +43,7 @@ int main(int argc, char** argv)
 
     auto input_file = get_input_file(filename);
 
-    auto tokens = load_obj(input_file);
+    model_t model = load_obj(input_file);
 
 
 
